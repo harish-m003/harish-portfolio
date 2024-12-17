@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub } from '@fortawesome/free-brands-svg-icons/faGithub'
 import { Link } from 'react-router-dom'
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons/faLinkedin'
-import { faTwitter } from '@fortawesome/free-brands-svg-icons'
+import { faInstagram } from '@fortawesome/free-brands-svg-icons'
 
 
 function Footer (){
@@ -32,7 +32,7 @@ function Footer (){
 
 const sociallink=[
     {id:1,
-        link:'',
+        link:'https://github.com/Harish-Fio',
         icon:faGithub
     },
     {id:2,
@@ -40,8 +40,8 @@ const sociallink=[
         icon:faLinkedin
     },
     {id:3,
-        link:'',
-        icon:faTwitter
+        link:'https://www.instagram.com/know___him____/',
+        icon:faInstagram
     }
 ]
 
