@@ -1,7 +1,7 @@
 import React from 'react';
 import './Project.css';
 import project1 from '../ImagesLogo/netflix landing project.png';
-import project2 from '../ImagesLogo/mobstore project.png';
+import project2 from '../ImagesLogo/mob project.png';
 import { Link } from 'react-router-dom';
 
 function Project() {
@@ -36,7 +36,7 @@ const data = [
         Name: 'Netflix Landing Page',
         img: project1,
         description: '"Netflix-style landing page built with React.js,featuring responsive design and interactive elements"',
-        link:'https://netflix-loading-clonepage.web.app/'
+        link:'https://streaming-landing-page.netlify.app/'
     },
     {
         id: 2,
