@@ -93,7 +93,7 @@ const contact = [
     {
         id: 3,
         img: Locationicon,
-        detail: '2/83 A karthanur,Dharmapuri,Tamil-Nadu 635202'
+        detail: '2/83 A karthanur,Dharmapuri,Tamil Nadu, 635202'
     },
 ]
 

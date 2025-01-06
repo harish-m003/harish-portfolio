@@ -1,6 +1,5 @@
 import React from 'react'
 import './Footer.css'
-// import Footerimg from '../ImagesLogo/logo2.jpeg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub } from '@fortawesome/free-brands-svg-icons/faGithub'
 import { Link } from 'react-router-dom'
@@ -32,7 +31,7 @@ function Footer (){
 
 const sociallink=[
     {id:1,
-        link:'https://github.com/Harish-Fio',
+        link:'https://github.com/harish-m003',
         icon:faGithub
     },
     {id:2,
