@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin:0 ;
+    font-family: "outfit";
+}
+body{
+    /* background-color: #161513; */
+    background-color: rgb(32, 32, 32);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.guess-game{
+    margin-top: 35%;
+    border: 1.5px solid rgb(255, 255, 255);
+    padding: 32px;
+    border-radius: 18px;
+}
+.guess-num{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    gap: 8px;
+}
+.guess-num label{
+    font-size: 20px;
+    font-weight: 500;
+}
+.guess-num input{
+    border: 2px solid rgb(0, 0, 0);
+    outline: none;
+    padding: 8px;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+@media (max-width:500px){
+    .guess-num{
+        width: 280px;
+    }
+    .guess-num label{
+        font-size: 17px;
+    }
+    .guess-game{
+        padding: 20px;
+    }
+}
+@media (min-width:501px) and (max-width:650px){
+    .guess-num{
+        width: 400px;
+    }
+}
+
+
