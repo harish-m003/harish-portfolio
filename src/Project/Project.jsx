@@ -2,7 +2,7 @@ import React from 'react';
 import './Project.css';
 import project1 from '../ImagesLogo/netflix landing project.png';
 import project2 from '../ImagesLogo/mob project.png';
-import project3 from '../ImagesLogo/Guess num project.png';
+import project3 from '../ImagesLogo/project 3.png';
 import { Link } from 'react-router-dom';
 
 function Project() {
@@ -48,10 +48,10 @@ const data = [
     },
     {
         id: 3,
-        Name: 'Guessing Number',
+        Name: 'Guess Number Game',
         img: project3,
-        description:'',
-        link:''
+        description:'"A dynamic Number-Guessing game built with React.js"',
+        link:'https://guess-gamenumber.netlify.app/'
     },
    
 ]
