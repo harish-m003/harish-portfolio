@@ -1,6 +1,6 @@
 import React from 'react';
 import './About.css';
-import aboutimg from '../ImagesLogo/profile.jpg';
+import aboutimg from '../ImagesLogo/myimage.JPG';
 function About() {
     return (
         <div id='about' className='about'>

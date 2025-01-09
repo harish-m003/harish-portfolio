@@ -1,6 +1,6 @@
 import React from 'react';
 import './Profile.css';
-import profile from '../ImagesLogo/profile.jpg';
+import profile from '../ImagesLogo/myimage.JPG';
 import { Link } from 'react-router-dom';
 
 function Profile() {
