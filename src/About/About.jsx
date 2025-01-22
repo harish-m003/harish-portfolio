@@ -1,6 +1,7 @@
 import React from 'react';
 import './About.css';
-import aboutimg from '../ImagesLogo/myimage.JPG';
+// import aboutimg from '../ImagesLogo/myimage.JPG';
+import photo from "../ImagesLogo/photo.jpg";
 function About() {
     return (
         <div id='about' className='about'>
@@ -9,7 +10,7 @@ function About() {
             </div>
             <div className="about-section">
                 <div className="about-left">
-                    <img src={aboutimg} alt='' />
+                    <img src={photo} alt='' />
                 </div>
                 <div className="about-right">
                 <div className='about-para' >
