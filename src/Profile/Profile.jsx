@@ -1,7 +1,6 @@
 import React from 'react';
 import './Profile.css';
-// import profile from '../ImagesLogo/myimage.JPG';
-import photo from "../ImagesLogo/photo.jpg";
+import photo from "../ImagesLogo/myimage.JPG";
 import { Link } from 'react-router-dom';
 
 function Profile() {
