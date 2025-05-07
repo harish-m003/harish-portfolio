@@ -10,7 +10,7 @@ function Profile() {
             <span> Hi, I'm Harish,</span>
             <h1>Junior Front-End Developer.</h1>
             <div className="profile-action">
-                <Link className='profile-resume' to='https://drive.google.com/file/d/1JoVcn9e02iIRUYO0oOuJ0uCl4VRoafag/view?usp=drivesdk'>
+                <Link className='profile-resume' to='https://drive.google.com/file/d/1SOX5Pxczt4u0MOgNpXgg3GxLn_Y4amt1/view?usp=drivesdk'>
                 My Resume</Link>
             </div>
         </div>
